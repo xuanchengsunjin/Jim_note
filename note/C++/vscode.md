@@ -20,7 +20,7 @@
 
 [下载链接](https://code.visualstudio.com/)
 
-<div align="center"> <img src="/resource/img/C++/vscode_link.png" width="300px"> </div><br>
+<div align="center"> <img src="/resource/img/C++/vscode_link.png" width="900px"> </div><br>
 
 ## 安装相关插件
 
@@ -29,7 +29,7 @@
 Ctrl + Shift + x:
 - 在搜索框中输入插件名称
 - 单击install
-<div align="center"> <img src="/resource/img/C++/plagin_vscode.png" width="300px"> </div><br>
+<div align="center"> <img src="/resource/img/C++/plagin_vccode.png" width="900px"> </div><br>
 
 **2. 搜安装相关插件** 
 
