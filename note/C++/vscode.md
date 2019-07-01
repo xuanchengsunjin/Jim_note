@@ -18,17 +18,18 @@
 
 **1. VScode官网** 
 
-[下载链接]()
+[下载链接](https://code.visualstudio.com/)
 
-<div align="center"> <img src="pics/9112288f-23f5-4e53-b222-a46fdbca1603.png" width="300px"> </div><br>
-
+<div align="center"> <img src="/resource/img/C++/vscode_link.png" width="300px"> </div><br>
 
 ## 安装相关插件
 
 **1. 搜索插件快捷键** 
 
 Ctrl + Shift + x:
-<div align="center"> <img src="pics/9112288f-23f5-4e53-b222-a46fdbca1603.png" width="300px"> </div><br>
+- 在搜索框中输入插件名称
+- 单击install
+<div align="center"> <img src="/resource/img/C++/plagin_vscode.png" width="300px"> </div><br>
 
 **2. 搜安装相关插件** 
 
