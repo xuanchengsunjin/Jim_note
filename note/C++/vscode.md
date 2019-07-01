@@ -70,12 +70,17 @@ int main()
 - 1:g++编译指令(g++ cpp文件(main.cpp)　-o 指定可执行文件名(main))  （cpp文件可为多个）
 - 2:执行main(生成的可执行文件,windows下为main.exe)
 - 3:输出结果
-<div align="center"> <img src="/resource/img/C++/vscode_simple_pro_run.png" width="900px"> </div><br>
 
+<div align="center"> <img src="/resource/img/C++/vscode_simple_pro_run.png" width="900px"> </div><br>
 
 # 三.VScode下C++工程编译&调试
 
 ## 简介
+
+**1. 工程目录**
+
+[工程源码链接](https://github.com/xuanchengsunjin/C_ROOKIE)
+<div align="center"> <img src="/resource/img/C++/vscode_c_rookie.png" width="900px"> </div><br>
 
 ## 配置task.json
 
