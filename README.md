@@ -34,6 +34,7 @@
 ## :watermelon: 编码实践 
 
 - [算法实践](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm_practice/content.md)
+- [技术实践](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tec_practice/content.md)
 
 ## :memo: 后记
 
