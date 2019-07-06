@@ -36,7 +36,7 @@ Ctrl + Shift + x:
 
 在这里我们选择安装C/C++、C++ Intellisense、Code Runner 和Include Autocomplete这四插件
 
-#＃　安装相关软件 
+## 安装相关软件 
 
 - 1.安装g++/gcc: apt-get install g++ / apt-get install gcc
 - 2.安装gdb: apt-get install gdb
