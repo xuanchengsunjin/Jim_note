@@ -43,6 +43,7 @@
 ## :wrench: 工具
 
 - [VScode](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/vscode/content.md)
+- [日志](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/content.md)
 
 ## :watermelon: 编码实践 
 
