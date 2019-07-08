@@ -18,13 +18,19 @@
 
 ## :computer: 操作系统
 
+- [Linux常用指令](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/order_content.md)
+
 ## :cloud: 网络 
 
 ## :art: 面向对象
 
 ## :floppy_disk: 数据库 
 
+- [MySql基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/mysql/content.md)
+
 ## :coffee: 编程语言
+
+- [编程常识](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/common_knowledge/content.md)
 
 ## :bulb: C++ 
 
@@ -34,7 +40,9 @@
 - [nginx解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/nginx_content/nginx_content.md)
 - [指针基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/point_content/point_basic_knowledge.md)
 
-## :wrench: 工具 
+## :wrench: 工具
+
+- [VScode](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/vscode/content.md)
 
 ## :watermelon: 编码实践 
 
