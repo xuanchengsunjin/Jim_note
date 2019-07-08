@@ -27,6 +27,7 @@
 ## :floppy_disk: 数据库 
 
 - [MySql基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/mysql/content.md)
+- [Redis基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/redis/content.md)
 
 ## :coffee: 编程语言
 
