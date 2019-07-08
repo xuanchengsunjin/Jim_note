@@ -32,6 +32,7 @@
 ## :coffee: 编程语言
 
 - [编程常识](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/common_knowledge/content.md)
+- [Lua](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/lua/content.md)
 
 ## :bulb: C++ 
 
@@ -40,6 +41,7 @@
 - [redis解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/redis_content/redis_content.md)
 - [nginx解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/nginx_content/nginx_content.md)
 - [指针基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/point_content/point_basic_knowledge.md)
+- [编程实践](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/my_practice/content.md)
 
 ## :wrench: 工具
 
