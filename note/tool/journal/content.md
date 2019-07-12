@@ -6,11 +6,11 @@
 
 ## 搭建日志服务
 
-- [Nlog日志服务](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/nlog.md)
+- [Rsyslog日志服务](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/rsyslog.md)
 - [nginx-日志](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/nginx_log.md)
 - [lua-日志](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/lua_log.md)
 - [ELK](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/elk.md)
-- [ELK-logstash](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/nlog.md)
+- [ELK-logstash](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/logstash.md)
 - [ELK-elasticsearch](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/elasticsearch/install.md)
 - [ELK-kibana](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/kibana.md)
 - [kibana-使用](https://www.cnblogs.com/cjsblog/p/9476813.html)
