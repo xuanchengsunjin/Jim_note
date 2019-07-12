@@ -1,9 +1,6 @@
-
-
 <div align="center">
     <img src="resource/img/public/head_picture_jim.png" width="900px">
 </div>
-
 <br>
 
 ## 数据结构&算法基础
@@ -11,7 +8,6 @@
 - [数据结构](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/data_structure/content.md)
 - [Leetcode](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/leetcode/content.md)
 - [算法](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/algorithm_other/content.md)
-
 
 ## 操作系统
 
@@ -37,7 +33,6 @@
 - [MySql基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/mysql/content.md)
 - [Redis基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/redis/content.md)
 - [Elasticsearch搜索引擎](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/elasticsearch/content.md)
-
 
 ## 编程语言
 
@@ -67,6 +62,7 @@
 ## 技术笔记
 
 - [缓存&队列](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tec_note/cache/content.md)
+- [Nginx笔记](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tec_note/nginx/content.md)
 
 
 
