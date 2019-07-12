@@ -7,5 +7,6 @@
 ### 基础知识
 
 - [安装](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/elasticsearch/install.md)
+- [indices-templates](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html)
 
-### 知识点
+

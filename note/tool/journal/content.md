@@ -11,7 +11,7 @@
 - [lua-日志](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/lua_log.md)
 - [ELK](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/elk.md)
 - [ELK-logstash](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/nlog.md)
-- [ELK-elasticsearch](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/elasticsearch.md)
+- [ELK-elasticsearch](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/elasticsearch/install.md)
 - [ELK-kibana](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/kibana.md)
 - [kibana-使用](https://www.cnblogs.com/cjsblog/p/9476813.html)
 - [kibana-可视化](https://www.elastic.co/cn/products/kibana)
