@@ -20,14 +20,14 @@ bin  built_assets  config  data  LICENSE.txt  node  node_modules  NOTICE.txt  op
 
 ### 配置&启动
 
-> server.port: 5601
-> kibana.index: ".kibana"
-> server.host: 127.0.0.1
-> elasticsearch.hosts: ["http://127.0.0.1:9200"]
-> elasticsearch.pingTimeout: 1500
-> elasticsearch.requestTimeout: 300000
-> elasticsearch.username: "elastic"
-> elasticsearch.password: "123456"
+- server.port: 5601
+- kibana.index: ".kibana"
+- server.host: 127.0.0.1
+- elasticsearch.hosts: ["http://127.0.0.1:9200"]
+- elasticsearch.pingTimeout: 1500
+- elasticsearch.requestTimeout: 300000
+- elasticsearch.username: "elastic"
+- elasticsearch.password: "123456"
 
 ```linux
 
