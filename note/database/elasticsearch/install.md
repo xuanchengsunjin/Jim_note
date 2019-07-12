@@ -1,4 +1,4 @@
-## 下载安装
+### 下载安装
 
 **1. elastic官网** 
 
@@ -17,7 +17,11 @@ root@server:/opt/ELK/elasticsearch-7.2.0# ls
 bin  config  jdk  lib  LICENSE.txt  logs  modules  NOTICE.txt  plugins  README.textile
 
 ```
-## linux添加elk用户名&用户组
+### 安装java
+
+- 安装教程(https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/java/install.md)
+
+### linux添加elk用户名&用户组
 
 - root不允许直接启动，所以我们需要新建一个用户来启动es:
 
@@ -36,7 +40,7 @@ root@server:/opt/ELK# su elk
 elk@server:/opt/ELK$ cd elasticsearch-7.2.0
 
 ```
-## 配置和启动
+### 配置和启动
 
 - 配置
 
@@ -138,7 +142,8 @@ Caused by: java.nio.file.AccessDeniedException: /data
 ```linux
 
 root@server:/data/elasticsearch# cd ../
-root@server:/data# chown -R elk:elk elasticsearch/
+# -d参数表示后台运行
+root@server:/data# chown -R elk:elk elasticsearch/ -d
 root@server:/data# ls -ll
 total 4
 drwxr-xr-x 4 elk elk 4096 Jul 12 10:45 elasticsearch 
@@ -168,6 +173,6 @@ root@server:/data# curl "http://127.0.0.1:9200"
 }
 
 ```
-## 添加用户名和密码认证
+### 添加用户名和密码认证
 
 - 未完待续
