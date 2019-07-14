@@ -102,7 +102,7 @@
 
 ####    拓展
 
--[观察者&监听器]: https://www.cnblogs.com/jackson-zhangjiang/p/7784694.html
+-[观察者&监听器](https://www.cnblogs.com/jackson-zhangjiang/p/7784694.html)
 
 -[动态代理&静态代理]: https://www.cnblogs.com/cenyu/p/6289209.html
 -[Java观察器模式(observable]: https://www.cnblogs.com/cxxjohnson/p/6254967.htm
