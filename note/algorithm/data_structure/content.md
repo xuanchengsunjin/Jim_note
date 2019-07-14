@@ -1,7 +1,7 @@
 # 数据结构目录
 
 <div align="center">
-    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/algorithm/content.jpg" width="900px">
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/algorithm/content.jpg" width="700px">
 </div>
 
 ## 数组
