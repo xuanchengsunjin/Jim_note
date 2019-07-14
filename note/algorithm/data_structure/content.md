@@ -13,6 +13,7 @@
 - [普通队列](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/data_structure/common_queue.md)
 - [循环队列](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/data_structure/circle_queue.md)
 - [优先队列](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/data_structure/priority_queue.md)
+- [延迟队列](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tec_practice/delay_queue.md)
 
 ## 字符串
 

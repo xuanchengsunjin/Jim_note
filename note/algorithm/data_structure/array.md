@@ -21,7 +21,7 @@
 #### 小试牛刀
 
 - [数组插入平均移动次数](https://www.nowcoder.com/questionTerminal/59dc66fed7dc432485bf8bf99eb65ec5?toCommentId=556540)
-- [链表&数组]
+- [链表&数组](https://www.nowcoder.com/test/question/done?tid=22369873&qid=325961#summary)
 - [c语言多维数组地址问题](https://www.nowcoder.com/test/question/done?tid=22379336&qid=26150#summary)
 
 
