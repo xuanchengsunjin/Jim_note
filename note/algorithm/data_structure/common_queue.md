@@ -11,10 +11,10 @@
   ```C++
   
   ```
-2. 总结:
+2.  总结:
   - [ ]　各有优势,应结合具体场景分析使用。
   
-3. 使用场景:
+3.  使用场景:
   - [ ] [消息队列](https://www.cnblogs.com/LipeiNet/p/9877189.html)
   - [ ] [延迟队列](https://github.com/xuanchengsunjin/Jim_note/edit/sandbox/note/tec_practice/delay_queue.md)
   - [ ] [定时器(优先队列实现)](https://github.com/xuanchengsunjin/Jim_note/edit/sandbox/note/tec_practice/delay_queue.md)
