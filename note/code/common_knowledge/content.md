@@ -1,7 +1,7 @@
 # 编程知识目录
 
 <div align="center">
-    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/code/code_logo.jpg" width="300px">
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/code/code_logo.jpg" width="150px">
 </div>
 
 
