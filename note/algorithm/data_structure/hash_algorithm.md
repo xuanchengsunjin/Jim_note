@@ -141,6 +141,4 @@ Y=(13*321547+5)%107
 
 #### 哈希冲突
 
-- [哈希表&哈希冲突](hhttps://www.cnblogs.com/s-b-b/p/6208565.html)
-
-- 1.
+- [哈希表&哈希冲突](https://www.cnblogs.com/s-b-b/p/6208565.html)
