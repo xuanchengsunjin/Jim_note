@@ -24,7 +24,7 @@
 ```
 - yum makecache失败解决办法:
 - [ ] 就是把下载的CentOS7对应的repo文件中的$releasever全部改成对应版本7，并且把不存在的网址的子路径删去即可
-- [ ] 修改好后CentOS6-Base-163.repo文件如下：
+- [ ] 修改好后CentOS-Base.repo文件如下：
 ```linux
 
 [base]
