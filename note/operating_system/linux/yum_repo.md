@@ -86,7 +86,7 @@ gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-7
 - [ ] 6.删除软件包命令：yum remove <package_name>
 - [ ] 7.查找软件包 命令：yum search <keyword>
 - [ ] 8.清除缓存命令:
-> yum clean packages: 清除缓存目录下的软件包
-> yum clean headers: 清除缓存目录下的 headers
-> yum clean oldheaders: 清除缓存目录下旧的 headers
+> yum clean packages: 清除缓存目录下的软件包<br>
+> yum clean headers: 清除缓存目录下的 headers<br>
+> yum clean oldheaders: 清除缓存目录下旧的 headers<br>
 > yum clean, yum clean all (= yum clean packages; yum clean oldheaders) :清除缓存目录下的软件包及旧的headers
