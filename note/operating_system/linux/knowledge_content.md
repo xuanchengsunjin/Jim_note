@@ -8,4 +8,4 @@
 
 ### 常见问题解决
 
-- [解决yum镜像源](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/yum_repo.md)
+- [yum相关](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/yum_repo.md)
