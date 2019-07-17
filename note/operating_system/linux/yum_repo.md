@@ -13,8 +13,8 @@
 - [ ] [CentOS7](http://mirrors.163.com/.help/CentOS7-Base-163.repo)
 
 ```linux
-  wget http://mirrors.163.com/.help/CentOS6-Base-163.repo
-  mv CentOS6-Base-163.repo CentOS-Base.repo
+  wget http://mirrors.aliyun.com/repo/Centos-7.repo
+  mv Centos-7.repo CentOS-Base.repo
 ```
 
 - 运行以下命令生成缓存:
@@ -26,47 +26,57 @@
 - [ ] 就是把下载的CentOS7对应的repo文件中的$releasever全部改成对应版本7，并且把不存在的网址的子路径删去即可
 - [ ] 修改好后CentOS6-Base-163.repo文件如下：
 ```linux
-# CentOS-Base.repo
-#
-# The mirror system uses the connecting IP address of the client and the
-# update status of each mirror to pick mirrors that are updated to and
-# geographically close to the client.  You should use this for CentOS updates
-# unless you are manually picking other mirrors.
-#
-# If the mirrorlist= does not work for you, as a fall back you can try the 
-# remarked out baseurl= line instead.
-#
-#
-[base]
-name=CentOS-7 - Base - 163.com
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
-baseurl=http://mirrors.163.com/centos/7/os/$basearch/
-gpgcheck=1
-gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-7
 
-#released updates
-[updates]
-name=CentOS-7 - Updates - 163.com
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
-baseurl=http://mirrors.163.com/centos/7/updates/$basearch/
+[base]
+name=CentOS-$releasever - Base - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos/7/os/$basearch/
+        http://mirrors.aliyuncs.com/centos/7/os/$basearch/
+        http://mirrors.cloud.aliyuncs.com/centos/7/os/$basearch/
 gpgcheck=1
-gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
+
+#released updates 
+[updates]
+name=CentOS-$releasever - Updates - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos/7/updates/$basearch/
+        http://mirrors.aliyuncs.com/centos/7/updates/$basearch/
+        http://mirrors.cloud.aliyuncs.com/centos/7/updates/$basearch/
+gpgcheck=1
+gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
 
 #additional packages that may be useful
 [extras]
-name=CentOS-7 - Extras - 163.com
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
-baseurl=http://mirrors.163.com/centos/7/extras/$basearch/
+name=CentOS-$releasever - Extras - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos/7/extras/$basearch/
+        http://mirrors.aliyuncs.com/centos/7/extras/$basearch/
+        http://mirrors.cloud.aliyuncs.com/centos/$releasever/extras/$basearch/
 gpgcheck=1
-gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
 
 #additional packages that extend functionality of existing packages
 [centosplus]
-name=CentOS-7 - Plus - 163.com
-baseurl=http://mirrors.163.com/centos/7/centosplus/$basearch/
+name=CentOS-$releasever - Plus - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos/7/centosplus/$basearch/
+        http://mirrors.aliyuncs.com/centos/7/centosplus/$basearch/
+        http://mirrors.cloud.aliyuncs.com/centos/7/centosplus/$basearch/
 gpgcheck=1
 enabled=0
-gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
+
+#contrib - packages by Centos Users
+[contrib]
+name=CentOS-$releasever - Contrib - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos/7/contrib/$basearch/
+        http://mirrors.aliyuncs.com/centos/7/contrib/$basearch/
+        http://mirrors.cloud.aliyuncs.com/centos/7/contrib/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
 ```
 ### yum相关指令
 --------------------------------------------------------------------------------------------------------------------------------------
