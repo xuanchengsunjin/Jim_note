@@ -6,14 +6,14 @@
 > 打开kibana界面一直在loading
 - [ ] 解析:浏览器F12一探究竟
 <div align="center"> 
-    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/kibana_edage.png" width="600px"> 
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/kibana_edage.png" width="800px"> 
 </div><br>
 
 - [ ] 确认问题原因:
 > CSP策略影响
 - [ ] 进一步解析:查看头部信息
 <div align="center"> 
-    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/kibana_chrome.png" width="600px"> 
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/kibana_chrome.png" width="800px"> 
 </div><br>
 
 - [ ] 初步解决方案:
