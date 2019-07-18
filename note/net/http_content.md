@@ -123,5 +123,11 @@
 > 例如：Transfer-Encoding:chunked
 
 #### [http缓存机制](https://www.cnblogs.com/chenqf/p/6386163.html)
+- [ ] 浏览器第一次请求：
 <div align="center">
-   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_request.png" width="300px"> </div><br>
+   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_request.png" width="300px">
+</div><br>
+- [ ] 浏览器再次请求：
+<div align="center">
+   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_requesta.png" width="300px">
+</div><br>
