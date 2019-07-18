@@ -178,7 +178,7 @@
 ### 场景应用
 ------------------------------------------------------------------------------------------------------
 - [1. 解决cookie跨域](https://www.cnblogs.com/hujunzheng/p/5744755.html)
-        ```linux
+  ```linux
          location /web1 {
                     proxy_pass http://web1;
                     proxy_set_header Host  127.0.0.1;
@@ -188,10 +188,9 @@
                     proxy_set_header Cookie $http_cookie;
                     log_subrequest on;
                 }
-        ```
-
+   ```
 - [2. 解决跨域](https://www.cnblogs.com/morethink/p/6628757.html)
-        ```linux
+   ```linux
         location / {
             root   html;
             index  index.html index.htm;
@@ -212,6 +211,6 @@
             proxy_pass        http://127.0.0.1:8080;
 
         }
-        ```
+    ```
 
 - [URL重写](http://www.360doc.com/content/13/1205/06/14234135_334577912.shtml)
