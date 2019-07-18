@@ -5,6 +5,7 @@
 ### 知识点
  
 - [/etc/profile && /etc/profile.d/ 区别](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/profile.md)
+- [shell脚本](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/shell.md)
 
 ### 常见问题解决
 
