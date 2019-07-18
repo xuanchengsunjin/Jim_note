@@ -1,6 +1,15 @@
 #### 常见知识点
 -----------------------------------------------------------------------------------------------------------
-- [ ] [FROM_UNIXTIME()函数 & UNIX_TIMESTAMP()函数](https://www.cnblogs.com/mxwz/p/7520309.html)
+- [ ] [FROM_UNIXTIME()函数 & UNIX_TIMESTAMP()函数](https://www.cnblogs.com/haorenergou/p/7927591.html)
+```sql
+SELECT
+username,
+FROM_UNIXTIME(create_time, "%Y-%m-%d") AS dat
+FROM
+`wp_user`
+GROUP BY 
+dat
+```
 
 - [ ] [datetime & timestamp](https://www.cnblogs.com/mxwz/p/7520309.html)
 
