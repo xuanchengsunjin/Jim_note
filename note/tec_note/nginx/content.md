@@ -4,7 +4,7 @@
 ---------------------------------------------------------------------------------------------------------------
 - 1. 二级域名配置:
         - [ ] 实现功能:根据二级域名进行http请求的转发
-        ```linux
+      ```linux
         server{
                 listen 80;
                 server_name kibana.yckz003.top;
@@ -13,7 +13,7 @@
                         proxy_pass http://127.0.0.1:5601;
                 }
              }
-        ```
+       ```
 ### 模块解析
 -----------------------------------------------------------------------------------------------------
 - [1. proxy_cache](http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_cache)
@@ -23,7 +23,7 @@
 ----------------------------------------------------------------------------------------------------
 - [1. 反向代理](http://wiki.jikexueyuan.com/project/openresty/ngx/reverse_proxy.html)
         > 配置举例:
-        ```linux
+    ```linux
            ## 2.用户访问 http://ip:port/README.md，则反向代理到
            ##   https://github.com/.../README.md
            location /README.md {
@@ -35,8 +35,8 @@
                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
                proxy_pass https://github.com/moonbingbing/openresty-best-practices/blob/master/README.md;
-            }
-        ```
+           }
+    ```
 - [2. 负载均衡](http://wiki.jikexueyuan.com/project/openresty/ngx/balancer.html)
 
         ```linux
@@ -59,15 +59,16 @@
 </div>
 
 - [3. 日志配置](http://wiki.jikexueyuan.com/project/openresty/ngx/nginx_log.html)
-        - [ ] 自定义日志格式:
-        ```linux
+      - [ ] 自定义日志格式:
+     ```linux
         log_format  main  escape=none '$remote_addr $time_iso8601 $msec $request_time_format $request_length '
                     '$connection $connection_requests $uri "$request" $status_format '
                     '$body_bytes_sent $sent_http_X_IS_Error_Code "$sent_http_X_IS_Error_Msg" "$http_referer" '
                     '"$http_user_agent" "$http_x_forwarded_for" "$http_x_is_ip" $http_host ';
-        ```
-        - [ ] 印日志到目录
-        ```linux
+     ```
+     - [ ] 印日志到目录
+        
+      ```linux
         worker_processes 1;
 
         pid logs/nginx.pid;
@@ -98,7 +99,7 @@
         ...
         }
         ```
-        - [ ] 字段及其作用：
+    - [ ] 字段及其作用：
 
    | 字段 | 作用  |
    | ---- | ---- |
