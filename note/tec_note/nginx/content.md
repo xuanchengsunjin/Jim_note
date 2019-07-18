@@ -59,7 +59,8 @@
 </div>
 
 - [3. 日志配置](http://wiki.jikexueyuan.com/project/openresty/ngx/nginx_log.html)
-      - [ ] 自定义日志格式:
+
+     - [ ] 自定义日志格式:
      ```linux
         log_format  main  escape=none '$remote_addr $time_iso8601 $msec $request_time_format $request_length '
                     '$connection $connection_requests $uri "$request" $status_format '
@@ -125,17 +126,17 @@
         > 内置变量存放在  ngx_http_core_module 模块中,变量的命名方式和apache 服务器变量是一致的。<br>
         > 总而言之，这些变量代表着客户端请求头的内容，例如$http_user_agent, $http_cookie...
 | 字段 | 说明  |
-        | ---- | ---- |
-        |$arg_name|请求中的的参数名，即“?”后面的arg_name=arg_value形式的arg_name|
-        |$args|请求中的参数值|
-        |$binary_remote_addr|客户端地址的二进制形式, 固定长度为4个字节|
-        |$body_bytes_sent|传输给客户端的字节数，响应头不计算在内；这个变量和Apache的mod_log_config模块中的“%B”参数保持兼容|
-        |$bytes_sent|传输给客户端的字节数 (1.3.8, 1.2.5)|
-        |$connection|TCP连接的序列号 (1.3.8, 1.2.5)|
-        |$connection_requests|TCP连接当前的请求数量 (1.3.8, 1.2.5)|
-        |$content_length|“Content-Length” 请求头字段|
-        |$content_type|“Content-Type” 请求头字段|
-        |$cookie_name|cookie名称|
+| ---- | ---- |
+|$arg_name|请求中的的参数名，即“?”后面的arg_name=arg_value形式的arg_name|
+|$args|请求中的参数值|
+|$binary_remote_addr|客户端地址的二进制形式, 固定长度为4个字节|
+|$body_bytes_sent|传输给客户端的字节数，响应头不计算在内；这个变量和Apache的mod_log_config模块中的“%B”参数保持兼容|
+|$bytes_sent|传输给客户端的字节数 (1.3.8, 1.2.5)|
+|$connection|TCP连接的序列号 (1.3.8, 1.2.5)|
+|$connection_requests|TCP连接当前的请求数量 (1.3.8, 1.2.5)|
+|$content_length|“Content-Length” 请求头字段|
+|$content_type|“Content-Type” 请求头字段|
+|$cookie_name|cookie名称|
         |$document_root|当前请求的文档根目录或别名|
         |$document_uri|同 $uri|
         |$host|优先级如下：HTTP请求行的主机名>”HOST”请求头字段>符合请求的服务器名|
