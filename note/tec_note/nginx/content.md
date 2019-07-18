@@ -35,6 +35,26 @@ server{
     }
 ```
 - [2. 负载均衡](http://wiki.jikexueyuan.com/project/openresty/ngx/balancer.html)
+
+```linux
+## 配置实例:
+upstream test.net{
+    ip_hash;
+    server 192.168.10.13:80;
+    server 192.168.10.14:80  down;
+    server 192.168.10.15:8009  max_fails=3  fail_timeout=20s;
+    server 192.168.10.16:8080;
+}
+server {
+    location / {
+        proxy_pass  http://test.net;
+    }
+}
+```
+<div align="center">
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/tec_note/nginx_fuzai.png" width="700px">
+</div>
+
 - [3. 日志配置](http://wiki.jikexueyuan.com/project/openresty/ngx/nginx_log.html)
 - [ ] 自定义日志格式:
 ```linux
