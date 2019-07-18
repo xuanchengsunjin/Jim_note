@@ -16,7 +16,10 @@ server{
 ```
 ### 模块解析
 
-### 功能分析
+- [1. proxy_cache](http://wiki.jikexueyuan.com/project/openresty/ngx/static_file.html)
+- [ ] [应用:nginx构建静态文件服务](http://wiki.jikexueyuan.com/project/openresty/ngx/static_file.html)
+
+### 基础功能分析
 
 - [1. 反向代理](http://wiki.jikexueyuan.com/project/openresty/ngx/reverse_proxy.html)
 > 配置举例:
