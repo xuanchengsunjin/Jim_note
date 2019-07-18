@@ -143,3 +143,21 @@
 <div align="center">
    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_requesta.png" width="500px">
 </div><br>
+
+#### http返回状态码
+- 1XX：请求接收成功，需要继续处理
+
+- 2XX：请求接收成功，并且服务端已经进行处理
+- [ ] 200：请求已经成功，会返回响应的数据
+
+- 3XX：重定向，即URL发生了改变
+- [ ] 301：永久重定向，即URL已经发生了改变
+- [ ] 302：临时重定向，即URL只是暂时发生改
+- [ ] 304：请求的网页没有发生改变，可以直接从缓存服务器中取资源
+
+- 4XX：请求发生了错误
+- [ ] 401：请求需要进行验证
+- [ ] 403：页面访问被禁止
+- [ ] 404：请求的资源不存在
+
+- 5XX：服务端发生了错误
