@@ -123,11 +123,23 @@
 > 例如：Transfer-Encoding:chunked
 
 #### [http缓存机制](https://www.cnblogs.com/chenqf/p/6386163.html)
+- 强制缓存规则:
+- [ ] 第一次响应:
+服务器响应头:
+> Cache-Control:(max-age:xxxx,),max-age表示最大资源最大存活时间,单位秒br>
+> Expires(http1.0，不建议考虑)
+
+- [ ] 再次请求:
+> 浏览器头部包含Last-Modified(表示资源上一次更改时间)<br>
+> 服务器根据Last-Modified判断资源是否更改:<br>
+> 是:返回200，并返回新的资源，否:返回304<br>
+
+- 对比缓存流程解析
 - [ ] 浏览器第一次请求：
 <div align="center">
-   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_request.png" width="300px">
+   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_request.png" width="500px">
 </div><br>
 - [ ] 浏览器再次请求：
 <div align="center">
-   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_requesta.png" width="300px">
+   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_requesta.png" width="500px">
 </div><br>
