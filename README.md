@@ -23,6 +23,7 @@
 - [HTTPS&加解密](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/http_content.md)
 - [MQTT](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/http_content.md)
 - [问题总结](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/problem_content.md)
+- [细节总结](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/detail_content.md)
 
 ## 面向对象
 
