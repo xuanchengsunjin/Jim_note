@@ -2,7 +2,7 @@
 -----------------------------------------------------------------------------------------------------------------------------
 - [content-security-policy](http://www.ruanyifeng.com/blog/2016/09/csp.html)
 
-- [X-Forwarded-For](https://imququ.com/post/x-forwarded-for-header-in-http.html)
+- [X-Forwarded-For&X-Real-IP](https://imququ.com/post/x-forwarded-for-header-in-http.html)
 
 - Accept：
 > 告诉WEB服务器自己接受什么介质类型，*/*表示任何类型，type/*<br> 
