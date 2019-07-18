@@ -238,4 +238,39 @@ esac
 - [文件包含](https://www.runoob.com/linux/linux-shell-include-file.html)
 
 #### 实践
-----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+
+- [ ] 日志解析
+>  取当前时间10分钟内的日志数据
+```bash
+# 生成当日日期格式字符串
+datePath=`date +%Y/%m/%d`
+# 生成时间格式字符串
+HOURDB=`date +%Y-%m-%d" "%H:%M`
+# 截取除分钟个位的字符串
+HOURDB=${HOURDB:0:15}
+
+error=`cat /data/backend/$datePath/127.0.0.1/5004/* | grep "$HOURDB" | grep "xxxxx" | wc -l`
+```
+> 取昨天的日志数据
+```bash
+# 生成昨日日期格式字符串
+datePath=`date -d "yesterday" +%Y-%m-%d`
+
+error=`cat /data/backend/$datePath/127.0.0.1/5002/* | grep "xxxxxx" | wc -l`
+```
+
+#### 详解
+------------------------------------------------------------------------------------------------------------
+- [ ] 字符串截取
+
+|格式 |	说明|
+| --- | --- |
+|${string: start :length}|	从 string 字符串的左边第 start 个字符开始，向右截取 length 个字符。|
+|${string: start}	|从 string 字符串的左边第 start 个字符开始截取，直到最后。|
+|${string: 0-start :length}|	从 string 字符串的右边第 start 个字符开始，向右截取 length 个字符。|
+|${string: 0-start}|	从 string 字符串的右边第 start 个字符开始截取，直到最后。|
+|${string#*chars}	|从 string 字符串第一次出现 *chars 的位置开始，截取 *chars 右边的所有字符。|
+|${string##*chars}	|从 string 字符串最后一次出现 *chars 的位置开始，截取 *chars 右边的所有字符。|
+|${string%*chars}	|从 string 字符串第一次出现 *chars 的位置开始，截取 *chars 左边的所有字符。|
+|${string%%*chars}|	从 string 字符串最后一次出现 *chars 的位置开始，截取 *chars 左边的所有字符。|
