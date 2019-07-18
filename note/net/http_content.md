@@ -144,7 +144,7 @@
    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_requesta.png" width="500px">
 </div><br>
 
-#### http返回状态码
+#### [http返回状态码](https://www.cnblogs.com/xflonga/p/9368993.html)
 - 1XX：请求接收成功，需要继续处理
 
 - 2XX：请求接收成功，并且服务端已经进行处理
