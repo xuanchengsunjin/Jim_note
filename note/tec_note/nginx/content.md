@@ -100,31 +100,30 @@
         ```
         - [ ] 字段及其作用：
 
-        | 字段 | 作用  |
-        | ---- | ---- |
-        | remoteaddr与http_x_forwarded_for | 记录客户端IP地址   |
-        | $remote_user | 记录客户端用户名称  |
-        | $request |记录请求的URI和HTTP协议   | 
-        | $status  |	记录请求状态   |
-        | $body_bytes_sent  |	发送给客户端的字节数，不包括响应头的大小   |
-        | $bytes_sent |	发送给客户端的总字节数   |
-        | $connection |	连接的序列号   |
-        | $connection_requests |	当前通过一个连接获得的请求数量   |
-        | $msec | 日志写入时间。单位为秒，精度是毫秒   |
-        | $pipe | 如果请求是通过HTTP流水线(pipelined)发送，pipe值为“p”，否则为“.”   |
-        | $http_referer	| 记录从哪个页面链接访问过来的   |   
-        | $http_user_agent | 记录客户端浏览器相关信息   |   
-        | $request_length | 请求的长度（包括请求行，请求头和请求正文）   |
-        | $request_time	| 请求处理时间，单位为秒，精度毫秒   |
-        | $time_iso8601 | ISO8601标准格式下的本地时间   |
-        | $time_local | 记录访问时间与时区   |
+   | 字段 | 作用  |
+   | ---- | ---- |
+   | remoteaddr与http_x_forwarded_for | 记录客户端IP地址   |
+   | $remote_user | 记录客户端用户名称  |
+   | $request |记录请求的URI和HTTP协议   | 
+   | $status  |	记录请求状态   |
+   | $body_bytes_sent  |	发送给客户端的字节数，不包括响应头的大小   |
+   | $bytes_sent |	发送给客户端的总字节数   |
+   | $connection |	连接的序列号   |
+   | $connection_requests |	当前通过一个连接获得的请求数量   |
+   | $msec | 日志写入时间。单位为秒，精度是毫秒   |
+   | $pipe | 如果请求是通过HTTP流水线(pipelined)发送，pipe值为“p”，否则为“.”   |
+   | $http_referer	| 记录从哪个页面链接访问过来的   |   
+   | $http_user_agent | 记录客户端浏览器相关信息   |   
+   | $request_length | 请求的长度（包括请求行，请求头和请求正文）   |
+   | $request_time	| 请求处理时间，单位为秒，精度毫秒   |
+   | $time_iso8601 | ISO8601标准格式下的本地时间   |
+   | $time_local | 记录访问时间与时区   |
 
 ### [nginx内置变量](https://www.cnblogs.com/raichen/p/5121262.html)
 -----------------------------------------------------------------------------------------------------
         > 内置变量存放在  ngx_http_core_module 模块中,变量的命名方式和apache 服务器变量是一致的。<br>
         > 总而言之，这些变量代表着客户端请求头的内容，例如$http_user_agent, $http_cookie...
-
-        | 字段 | 说明  |
+| 字段 | 说明  |
         | ---- | ---- |
         |$arg_name|请求中的的参数名，即“?”后面的arg_name=arg_value形式的arg_name|
         |$args|请求中的参数值|
@@ -174,6 +173,7 @@
         |$time_iso8601|服务器时间的ISO 8610格式 (1.3.12, 1.2.7)|
         |$time_local|服务器时间（LOG Format 格式） (1.3.12, 1.2.7)|
         |$uri|请求中的当前URI(不带请求参数，参数位于$args)|
+        
 
 ### 场景应用
 ------------------------------------------------------------------------------------------------------
