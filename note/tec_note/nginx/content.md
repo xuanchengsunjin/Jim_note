@@ -116,3 +116,44 @@ http{
 | $time_iso8601 | ISO8601标准格式下的本地时间   |
 | $time_local | 记录访问时间与时区   |
 ### nginx内置变量
+
+### 场景应用
+
+- [1. 解决cookie跨域](https://www.cnblogs.com/hujunzheng/p/5744755.html)
+```linux
+ location /web1 {
+            proxy_pass http://web1;
+            proxy_set_header Host  127.0.0.1;
+            proxy_set_header   X-Real-IP        $remote_addr;
+            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+ 
+            proxy_set_header Cookie $http_cookie;
+            log_subrequest on;
+        }
+```
+
+- [2. 解决跨域](https://www.cnblogs.com/morethink/p/6628757.html)
+```linux
+location / {
+    root   html;
+    index  index.html index.htm;
+    # 配置html以文件方式打开
+    if ($request_method = 'POST') {
+          add_header 'Access-Control-Allow-Origin' *;
+          add_header 'Access-Control-Allow-Credentials' 'true';
+          add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+          add_header 'Access-Control-Allow-Headers' 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+      }
+    if ($request_method = 'GET') {
+          add_header 'Access-Control-Allow-Origin' *;
+          add_header 'Access-Control-Allow-Credentials' 'true';
+          add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+          add_header 'Access-Control-Allow-Headers' 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+    }
+    # 代理到8080端口
+    proxy_pass        http://127.0.0.1:8080;
+
+}
+```
+
+- [URL重写](http://www.360doc.com/content/13/1205/06/14234135_334577912.shtml)
