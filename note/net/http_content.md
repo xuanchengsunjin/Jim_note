@@ -3,6 +3,9 @@
 - [content-security-policy](http://www.ruanyifeng.com/blog/2016/09/csp.html)
 
 - [X-Forwarded-For&X-Real-IP](https://imququ.com/post/x-forwarded-for-header-in-http.html)
+<div align="center">
+   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/x_forward.png" width="900px">
+</div><br>
 
 - Accept：
 > 告诉WEB服务器自己接受什么介质类型，*/*表示任何类型，type/*<br> 
