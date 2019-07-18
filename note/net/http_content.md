@@ -121,3 +121,7 @@
 - Transfer-Encoding: 
 > WEB 服务器表明自己对本响应消息体(不是消息体里面的对象)作了怎样的编码，比如是否分块(chunked)。<br> 
 > 例如：Transfer-Encoding:chunked
+
+#### [http缓存机制](https://www.cnblogs.com/chenqf/p/6386163.html)
+<div align="center">
+   <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/http_cache_request.png" width="300px"> </div><br>
