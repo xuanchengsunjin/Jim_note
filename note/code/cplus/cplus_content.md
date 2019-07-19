@@ -22,26 +22,31 @@
     |long double	|16 个字节|	+/- 1.7e +/- 308 (~15 个数字)|
     |wchar_t	|2 或 4 个字节|1 个宽字符|
     
-    - [limits库](http://osr600doc.sco.com/en/man/html.C%2B%2Bstd/limits.C%2B%2Bstd.html)
+    - [limits库](https://en.cppreference.com/w/cpp/types/numeric_limits)
     
     ```C++
-      #include<iostream>  
-      #include<string>  
-      #include <limits>  
-      using namespace std;  
+      #include <limits>
+      #include <iostream>
 
-      int main()  
-      {  
-          cout << "type: \t\t" << "************size**************"<< endl;  
-          cout << "bool: \t\t" << "所占字节数：" << sizeof(bool);  
-          cout << "\t最大值：" << (numeric_limits<bool>::max)();  
-          cout << "\t\t最小值：" << (numeric_limits<bool>::min)() << endl;  
-          cout << "char: \t\t" << "所占字节数：" << sizeof(char);  
-          cout << "\t最大值：" << (numeric_limits<char>::max)();  
-          cout << "\t\t最小值：" << (numeric_limits<char>::min)() << endl;  
-          cout << "signed char: \t" << "所占字节数：" << sizeof(signed char);  
-          cout << "\t最大值：" << (numeric_limits<signed char>::max)();  
-          cout << "type: \t\t" << "************size**************"<< endl;  
-          return 0;  
+      int main() 
+      {
+          std::cout << "type\tlowest()\tmin()\t\tmax()\n\n";
+
+          std::cout << "uchar\t"
+                    << +std::numeric_limits<unsigned char>::lowest() << '\t' << '\t'
+                    << +std::numeric_limits<unsigned char>::min() << '\t' << '\t'
+                    << +std::numeric_limits<unsigned char>::max() << '\n';
+          std::cout << "int\t"
+                    << std::numeric_limits<int>::lowest() << '\t'
+                    << std::numeric_limits<int>::min() << '\t'
+                    << std::numeric_limits<int>::max() << '\n';
+          std::cout << "float\t"
+                    << std::numeric_limits<float>::lowest() << '\t'
+                    << std::numeric_limits<float>::min() << '\t'
+                    << std::numeric_limits<float>::max() << '\n';
+          std::cout << "double\t"
+                    << std::numeric_limits<double>::lowest() << '\t'
+                    << std::numeric_limits<double>::min() << '\t'
+                    << std::numeric_limits<double>::max() << '\n';
       }
     ``
