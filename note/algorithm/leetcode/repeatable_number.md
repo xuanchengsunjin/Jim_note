@@ -47,9 +47,10 @@
     class Solution {
     public:
         bool containsDuplicate(vector<int>& nums) {
-            int count = std::numeric_limits<int>::max(); 
-            bool arr_positive[count];
-            bool arr_negative[count];
+            int count = std::numeric_limits<int>::max(); //count为int类型最大值
+            bool arr_positive[count];//正整数数组,每个数组值表示该索引值是否已出现
+            bool arr_negative[count];//负整数数组
+            //初始化数组
             for (int j = 0;j < count;j++){
                 arr_positive[j] = false;
                 arr_negative[j] = false;
