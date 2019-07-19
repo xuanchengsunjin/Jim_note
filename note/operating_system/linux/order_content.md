@@ -146,5 +146,13 @@
 
 + 系统设置
     - [设置环境变量](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/profile.md)
-    
-
+    - [export指令](https://www.runoob.com/linux/linux-comm-export.html)
+      - [ ] -f 　代表[变量名称]中为函数名称。
+      - [ ] -n 　删除指定的变量。变量实际上并未删除，只是不会输出到后续指令的执行环境中。
+      - [ ] -p 　列出所有的shell赋予程序的环境变量。
+    - [declare命令](https://www.runoob.com/linux/linux-comm-declare.html)
+      - [ ] +/- 　"-"可用来指定变量的属性，"+"则是取消变量所设的属性。
+      - [ ] -f 　仅显示函数。
+      - [ ] r 　将变量设置为只读。
+      - [ ] x 　指定的变量会成为环境变量，可供shell以外的程序来使用。
+      - [ ] i 　[设置值]可以是数值，字符串或运算式。
