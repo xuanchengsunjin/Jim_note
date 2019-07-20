@@ -34,7 +34,7 @@
     
     - [图解](https://www.cnblogs.com/fenghuan/p/4778050.html)
     <div align="center">
-       <img src="https://github.com/xuanchengsunjin/Jim_note/edit/sandbox/resource/img/C++/memorary.png" width="300px">
+       <img src="https://github.com/xuanchengsunjin/Jim_note/edit/sandbox/resource/img/C++/memorary" width="300px">
     </div>
     <br>
 #### C++内存管理
