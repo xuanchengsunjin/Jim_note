@@ -6,6 +6,7 @@
  
 - [/etc/profile && /etc/profile.d/ 区别](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/profile.md)
 - [shell脚本](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/shell.md)
+- [linux网络IO模型](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/net_io.md)
 
 ### 常见问题解决
 
