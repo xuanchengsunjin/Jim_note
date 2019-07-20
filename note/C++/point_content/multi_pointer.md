@@ -24,6 +24,7 @@
   - [ ] [多维数组基础解析](https://www.runoob.com/cprogramming/c-multi-dimensional-arrays.html)
   - [ ] [数组笔试]
     - [多维数组计算元素地址](https://www.nowcoder.com/test/question/done?tid=22379336&qid=26150#summary)
+     
       > 假设以行优先顺序存储三维数组A[5][6][7],其中元素A[0][0][0]的地址为1100，且每个元素占2个存储单元，则A[4][3][2]的地址是()
       ```bash
       把三维坐标想象成立方体。分配的空间A[5][6][7]表示层高为5、行数为6、列数为7
