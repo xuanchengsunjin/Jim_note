@@ -10,6 +10,7 @@
 ---------------------------------------------------------------------------------------------------------------
   - [ ] [位操作](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/bit_operation.md)
   - [ ] [C语言中结构体占用内存大小](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/struct_memorary.md)
+  - [ ] [C内联函数](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/inline.md)
   
 #### STL库
 ---------------------------------------------------------------------------------------------------------------
