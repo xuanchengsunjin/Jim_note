@@ -49,7 +49,9 @@
                     << std::numeric_limits<double>::min() << '\t'
                     << std::numeric_limits<double>::max() << '\n';
       }
-    ``
+    ```
+  - [ ] [指针&引用](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/point_content/point_basic_knowledge.md)
+  
 #### STL库
 ---------------------------------------------------------------------------------------------------------------
   ##### 基础
