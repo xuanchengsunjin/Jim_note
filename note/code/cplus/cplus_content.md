@@ -50,11 +50,14 @@
                     << std::numeric_limits<double>::max() << '\n';
       }
     ```
-  - [ ] [指针&引用](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/point_content/point_basic_knowledge.md)
-  
+   
 #### STL库
 ---------------------------------------------------------------------------------------------------------------
   ##### 基础
    - [ ] [vector容器](https://www.runoob.com/w3cnote/cpp-vector-container-analysis.html)
 
   ##### 源码解析
+  
+##### C++/C扩展
+  - [ ] [内存管理](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/memorary.md)
+  - [ ] [指针&引用](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/point_content/point_basic_knowledge.md)
