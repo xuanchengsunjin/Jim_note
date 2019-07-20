@@ -58,7 +58,8 @@
 
   ##### 源码解析
   
-##### C++/C扩展
+##### C++/C基础
   - [ ] [内存管理](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/memorary.md)
   - [ ] [指针&引用](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/point_content/point_basic_knowledge.md)
   - [ ] [多级指针](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/point_content/multi_pointer.md)
+  - [ ] [C标准库](https://www.runoob.com/cprogramming/c-standard-library.html)
