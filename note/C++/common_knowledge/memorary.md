@@ -32,11 +32,32 @@
       }
     ```
     
-    - [图解](https://www.cnblogs.com/fenghuan/p/4778050.html)
+    - [图解](https://blog.csdn.net/jirryzhang/article/details/79518408)
     <div align="center">
-       <img src="https://github.com/xuanchengsunjin/Jim_note/edit/sandbox/resource/img/C++/memorary" width="300px">
+       <img src="https://github.com/xuanchengsunjin/Jim_note/edit/sandbox/resource/img/C++/memorary.png" width="300px">
     </div>
     <br>
+    
+    > 表1:栈和堆的对比:
+
+      ||栈|堆|
+      | --- | --- | --- |
+      |存储内容| 局部变量| 变量|
+      |作用域	|函数作用域、语句块作用域| 函数作用域、语句块作用域|
+      |编译期间大小是否确定	|是| 否|
+      |大小| 1MB |    4GB|
+      |内存分配方式	|    地址由高向低减少|    地址由低向高增加|
+      | 内容是否可以修改	|    是|    是|
+    
+    > 表2 全局/静态存储区和常量存储区的对比:
+    
+      ||全局/静态存储区| 常量存储区|
+      | --- | --- | --- |
+      |存储内容|      全局变量、静态变量|      常量|
+      | 编译期间大小是否确定|  是|      是|
+      |      内容是否可以修改|      是|      |
+      
+      
 #### C++内存管理
 -------------------------------------------------------------------------------------------------------------------
   - [ ] [基础解析](https://www.runoob.com/cplusplus/cpp-dynamic-memory.html)
