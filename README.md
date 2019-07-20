@@ -41,7 +41,7 @@
 - [编程常识](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/common_knowledge/content.md)
 - [Lua](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/lua/content.md)
 - [Java](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/java/content.md)
-- [C++](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/cplus/cplus_content.md)
+- [C++/C](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/code/cplus/cplus_content.md)
 ## C++ 
 
 - [G++编译器基础&动态链接库&静态链接库](https://www.cnblogs.com/king-lps/p/7757919.html)
