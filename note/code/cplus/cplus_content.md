@@ -12,7 +12,8 @@
   - [ ] [C语言中结构体占用内存大小](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/struct_memorary.md)
   - [ ] [C语言内联函数](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/nline.md)
   - [ ] [C语言预处理](https://www.runoob.com/cprogramming/c-preprocessors.html)
-  
+-----------------------------------------------------------------------------------------------------------------
+  - [ ] [笔试题总结](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/exam.md)
 #### STL库
 ---------------------------------------------------------------------------------------------------------------
   ##### 基础
