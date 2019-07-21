@@ -15,7 +15,7 @@
   - [ ] 快速排序
 - [基数排序](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/algorithm_other/jishu_sort.md)
 - [归并排序](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/algorithm_other/merge_sort.md)
-
+- [排序笔试题](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/algorithm_other/sort_exam.md)
 2. Leetcode
 ------------------------------------------------------------------------------------------------------------------------------------------
 - [存在重复元素](https://github.com/xuanchengsunjin/Jim_note/tree/sandbox/note/algorithm/leetcode/repeatable_number.md)
