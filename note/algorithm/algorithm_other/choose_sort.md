@@ -84,7 +84,7 @@ void select_sort(int a[], int n)
 - [ ] 性质三：索引为i的父结点的索引是 floor((i-1)/2);
 
 <div align="center">
-    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/algorithm/heapa.jpg" width="600px">
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/algorithm/heada.jpg" width="600px">
 </div>
 
 例如，对于最大堆{110,100,90,40,80,20,60,10,30,50,70}而言：索引为0的左孩子的所有是1；索引为0的右孩子是2；索引为8的父节点是3。
