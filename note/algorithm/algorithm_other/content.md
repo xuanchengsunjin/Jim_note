@@ -18,8 +18,8 @@
 
 2. Leetcode
 ------------------------------------------------------------------------------------------------------------------------------------------
-- [存在重复元素](https://github.com/xuanchengsunjin/Jim_note/edit/sandbox/note/algorithm/leetcode/repeatable_number.md)
-- [无重复字符的最长子串](https://github.com/xuanchengsunjin/Jim_note/edit/sandbox/note/algorithm/leetcode/no_repeatable_string.md)
+- [存在重复元素](https://github.com/xuanchengsunjin/Jim_note/tree/sandbox/note/algorithm/leetcode/repeatable_number.md)
+- [无重复字符的最长子串](https://github.com/xuanchengsunjin/Jim_note/tree/sandbox/note/algorithm/leetcode/no_repeatable_string.md)
 
 #### 算法扩展
 ------------------------------------------------------------------------------------------------------------------------------------------
