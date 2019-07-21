@@ -60,5 +60,18 @@
   <div align="center">
     <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/poll_io.png" width="650px">
   </div>
+  
+#### 五大IO模型比较
+--------------------------------------------------------------------------------------------------------
+- 同步 I/O：将数据从内核缓冲区复制到应用进程缓冲区的阶段（第二阶段），应用进程会阻塞。
+- 异步 I/O：第二阶段应用进程不会阻塞。
+
+> 同步 I/O 包括阻塞式 I/O、非阻塞式 I/O、I/O 复用和信号驱动 I/O ，它们的主要区别在第一个阶段。<br><br>
+
+> 非阻塞式 I/O 、信号驱动 I/O 和异步 I/O 在第一阶段不会阻塞。
+  <div align="center">
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/net/all_io.png" width="650px">
+  </div>
+  
 #### [异步&同步 阻塞&非阻塞](https://www.cnblogs.com/Anker/p/5965654.html)
 ---------------------------------------------------------------------------------------------------------------
