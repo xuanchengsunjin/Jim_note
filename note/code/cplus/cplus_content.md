@@ -14,6 +14,7 @@
   - [ ] [C语言预处理](https://www.runoob.com/cprogramming/c-preprocessors.html)
 -----------------------------------------------------------------------------------------------------------------
   - [ ] [笔试题总结](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/exam.md)
+  - [ ] [linux-socket](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/net_io.md)
 #### STL库
 ---------------------------------------------------------------------------------------------------------------
   ##### 基础
