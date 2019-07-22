@@ -7,6 +7,8 @@
 - [/etc/profile && /etc/profile.d/ 区别](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/profile.md)
 - [shell脚本](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/shell.md)
 - [linux网络IO模型](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/net_io.md)
+- [linux-socket编程](https://github.com/xuanchengsunjin/Jim_note/tree/sandbox/src/C%2B%2B/socket)
+- [linux-epoll编程](https://github.com/xuanchengsunjin/Jim_note/tree/sandbox/src/C%2B%2B/epoll)
 
 ### 常见问题解决
 
