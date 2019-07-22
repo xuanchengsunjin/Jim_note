@@ -1,6 +1,6 @@
 ## Linux常识
 
-<div align="center"> <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/operating_system/linux_logo.jpg" width="200px"> </div><br>
+<div align="center"> <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/operating_system/linux_logo.jpg" width="100px"> </div><br>
 
 ### 知识点
  
