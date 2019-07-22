@@ -55,6 +55,7 @@
 
 - [VScode](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/vscode/content.md)
 - [日志](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/journal/content.md)
+- [git](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tool/git_tool.md)
 
 ## 编码实践 
 
