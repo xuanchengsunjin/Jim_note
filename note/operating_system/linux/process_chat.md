@@ -19,7 +19,7 @@
   > 它只能用于具有亲缘关系的进程之间的通信（也是父子进程或者兄弟进程之间）。<br>
   > 它可以看成是一种特殊的文件，对于它的读写也可以使用普通的read、write 等函数。但是它不是普通的文件，并不属于其他任何文件系统，并且只存在于内存中。
   <div align="center">
-    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/operating_system/pipe_linux.png" width="300px">
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/operating_system/pipe_linux.png" width="500px">
   </div>
   
   ```C++
@@ -317,7 +317,7 @@
   }
   ```
   <div align="center">
-    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/operating_system/queue_linux.png"      width="300px">
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/operating_system/queue_linux.png"      width="800px">
   </div>
   ```C++
   #include<stdio.h>
