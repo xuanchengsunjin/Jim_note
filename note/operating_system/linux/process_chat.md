@@ -317,8 +317,9 @@
   }
   ```
   <div align="center">
-    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/operating_system/queue_linux.png"      width="800px">
+    <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/operating_system/queue_linux.png"           width="800px">
   </div>
+  
   ```C++
   #include<stdio.h>
   #include<stdlib.h>
