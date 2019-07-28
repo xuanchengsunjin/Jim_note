@@ -10,6 +10,7 @@
 - [linux-socket编程](https://github.com/xuanchengsunjin/Jim_note/tree/sandbox/src/C%2B%2B/socket)
 - [linux-epoll编程](https://github.com/xuanchengsunjin/Jim_note/tree/sandbox/src/C%2B%2B/epoll)
 - [linux-文件描述符](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/file_char.md)
+- [linux-进程间通信](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/operating_system/linux/process_chat.md)
 
 ### 常见问题解决
 
