@@ -68,3 +68,4 @@
 - [缓存&队列](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tec_note/cache/content.md)
 - [Nginx笔记](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tec_note/nginx/content.md)
 - [并发编程](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tec_note/concurrent/content.md)
+- [加解密](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/tec_note/encryption_content.md)
