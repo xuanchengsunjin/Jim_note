@@ -20,8 +20,8 @@
 - [TCP](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/tcp_content.md)
 - [UDP](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/udp_content.md)
 - [HTTP](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/http_content.md)
-- [HTTPS&加解密](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/http_content.md)
-- [MQTT](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/http_content.md)
+- [HTTPS](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/https_content.md)
+- [MQTT](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/mqtt_content.md)
 - [问题总结](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/problem_content.md)
 - [细节总结](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/net/detail_content.md)
 
