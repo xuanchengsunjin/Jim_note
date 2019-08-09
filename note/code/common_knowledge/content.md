@@ -11,3 +11,4 @@
 - [正则表达式-lua](https://www.cnblogs.com/meamin9/p/4502461.html)
 - [正则表达式编程](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/regexp_code.md)
 - [字符简述](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/character.md)
+- [字符编码](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/C++/common_knowledge/character_encode.md)
