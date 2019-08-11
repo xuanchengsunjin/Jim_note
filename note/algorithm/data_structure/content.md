@@ -22,7 +22,7 @@
 ## 树
 
 - [二叉树](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/data_structure/tree.md)
-- [二叉树](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/data_structure/B_tree.md)
+- [B树](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/algorithm/data_structure/B_tree.md)
 
 ## 栈
 
