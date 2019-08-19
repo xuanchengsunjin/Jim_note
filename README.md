@@ -33,6 +33,7 @@
 ## 数据存储 
 
 - [MySql基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/mysql/content.md)
+- [MySql](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/mysql/main_content.md)
 - [Redis基础知识解析](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/redis/content.md)
 - [Elasticsearch搜索引擎](https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/note/database/elasticsearch/content.md)
 
