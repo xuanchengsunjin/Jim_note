@@ -25,7 +25,7 @@
     ```
     例如:
     <div align="center">
-      <img src="https://github.com/xuanchengsunjin/Jim_note/tree/master/resource/img/database/B_tree.jpg" width="400px">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/master/resource/img/database/B_tree.JPG" width="400px">
     </div>
     <br>
     
@@ -49,7 +49,7 @@
   ```
   例如:
   <div align="center">
-      <img src="https://github.com/xuanchengsunjin/Jim_note/tree/master/resource/img/database/B+_tree.jpg" width="400px">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/master/resource/img/database/B+_tree.JPG" width="400px">
   </div>
   <br>
   
@@ -73,6 +73,42 @@
   ```
   例如:
   <div align="center">
-      <img src="https://github.com/xuanchengsunjin/Jim_note/tree/master/resource/img/database/BB_tree.jpg" width="400px">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/master/resource/img/database/BB_tree.JPG" width="400px">
   </div>
   <br>
+  
+#### 性能分析
+--------------------------------------------------------------------------------------------------------------------------
+
+##### 如何B树的平衡
+
+  - [ ] [插入分析](https://juejin.im/entry/5b0cb64e518825157476b4a9)
+  
+    图解:
+    <div align="center">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/master/resource/img/database/B_insert" width="600px">
+    </div>
+    <br>
+   
+    <div align="center">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/master/resource/img/database/B_balancea.png" width="600px">
+    </div>
+    <br>
+    <div align="center">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/master/resource/img/database/B_balanceb.png" width="600px">
+    </div>
+    <br>
+    <div align="center">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/master/resource/img/database/B_balancec.png" width="600px">
+    </div>
+    <br>
+   
+##### B&B+树
+
+  ###### B+树的三个优点
+  
+  - [ ] 层级更低，IO 次数更少
+  - [ ] 每次都需要查询到叶子节点，查询性能稳定
+  - [ ] 叶子节点形成有序链表，范围查询方便
+  
+  
