@@ -25,7 +25,7 @@
     ```
     例如:
     <div align="center">
-      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/database/B_tree.jpg" width="400px">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/tree/master/resource/img/database/B_tree.jpg" width="400px">
     </div>
     <br>
     
@@ -49,7 +49,7 @@
   ```
   例如:
   <div align="center">
-      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/database/B+_tree.jpg" width="400px">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/tree/master/resource/img/database/B+_tree.jpg" width="400px">
   </div>
   <br>
   
@@ -73,6 +73,6 @@
   ```
   例如:
   <div align="center">
-      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/sandbox/resource/img/database/BB_tree.jpg" width="400px">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/tree/master/resource/img/database/BB_tree.jpg" width="400px">
   </div>
   <br>
