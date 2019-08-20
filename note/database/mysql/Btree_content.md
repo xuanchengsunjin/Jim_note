@@ -119,3 +119,7 @@
 #### MySql索引
 ------------------------------------------------------------------------------------------------------------------------
 
+  - [ ] [mysql索引原理&优化](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+  - [ ] [Explain使用](https://segmentfault.com/a/1190000008131735)
+  - [ ] [基础总结](https://github.com/CyC2018/CS-Notes/blob/master/notes/MySQL.md)
+  
