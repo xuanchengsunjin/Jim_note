@@ -111,4 +111,11 @@
   - [ ] 每次都需要查询到叶子节点，查询性能稳定
   - [ ] 叶子节点形成有序链表，范围查询方便
   
+  <div align="center">
+      <img src="https://github.com/xuanchengsunjin/Jim_note/blob/master/resource/img/database/B+good.png" width="600px">
+  </div>
+  <br>
   
+#### MySql索引
+------------------------------------------------------------------------------------------------------------------------
+
