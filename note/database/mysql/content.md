@@ -41,3 +41,4 @@
     ```sql
     mysql> SELECT name FROM person_tbl WHERE name REGEXP '^st';
     ```
+- [ ] [基础题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode-Database%20题解.md)
